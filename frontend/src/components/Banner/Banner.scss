@@ -1,0 +1,25 @@
+$banner-font: 'Montserrat', sans-serif;
+$banner-font-size: 3rem;
+$banner-font-weight: 700;
+
+.banner {
+    position: relative;
+    display: grid;
+    place-items: center;
+    min-height: 14rem;
+    overflow: hidden;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+     var(--background-image);
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+
+    &__title {
+        color: #FFFFFF;
+        text-align: center;
+        font-family: $banner-font;
+        font-size: $banner-font-size;
+        font-weight: $banner-font-weight;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    }
+}
