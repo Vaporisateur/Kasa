@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom'
 import PropTypes from 'prop-types'
+import './Nav.scss'
 
 export default function Nav({ links }) {
     if (!links || Object.keys(links).length === 0) {
