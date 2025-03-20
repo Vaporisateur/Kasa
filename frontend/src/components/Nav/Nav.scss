@@ -5,9 +5,9 @@ $nav-font: 'Montserrat', sans-serif;
 .nav {
     display: flex;
     align-items: center;
+    gap: 50px;
 
     &__item {
-        margin-left: 3.5rem;
         list-style: none;
     }
 

@@ -20,7 +20,7 @@ export function Router() {
                     element: <About />,
                 },
                 {
-                    path: 'logements',
+                    path: 'logements/:id',
                     element: <Logements />,
                 },
                 {

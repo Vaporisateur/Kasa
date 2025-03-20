@@ -13,7 +13,7 @@ export default function Header() {
                 to="/"
                 aria-label="Revenir à l'accueil"
             >
-                <img src="/public/logo.svg" alt="Logo de l'application" className="header__logo" />
+                <img src="/LOGO.svg" alt="Logo de l'application" className="header__logo" />
             </NavLink>
             <Nav links={links} />
         </header>

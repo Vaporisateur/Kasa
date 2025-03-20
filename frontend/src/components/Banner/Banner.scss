@@ -22,5 +22,7 @@ $banner-font-weight: 700;
         font-size: $banner-font-size;
         font-weight: $banner-font-weight;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+        margin: 0;
+        text-wrap: balance;
     }
 }
