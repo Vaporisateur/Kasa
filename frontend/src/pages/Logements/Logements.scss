@@ -1,0 +1,37 @@
+.logements {   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__title {
+        margin: 0 0 10px;
+        font-size: 2.25rem;
+        font-weight: 500;
+        color: #FF6060;
+        letter-spacing: 1px;
+    }
+    
+    &__location {
+        margin: 0 0 25px;
+        font-size: 1.125rem;
+        letter-spacing: 0.5px;
+    }
+
+    &__details {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 70px;
+    }
+
+    &__infos {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+}

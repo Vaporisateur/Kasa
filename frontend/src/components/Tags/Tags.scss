@@ -1,0 +1,18 @@
+.tagslist {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    &__tag {
+        padding: 5px 30px;
+        text-align: center;
+        background-color: #FF6060;
+        color: #fff;
+        font-size: 0.875rem;
+        font-weight: 700;
+        border-radius: 10px;
+    }
+}

@@ -16,6 +16,7 @@
         height: 100%;
         object-fit: cover;
         opacity: 0;
+        transition: opacity 0.6s;
 
         &--active {
             opacity: 1;
@@ -39,5 +40,13 @@
         &--next {
             right: 10px;
         }
+    }
+
+    &__count {
+        z-index: 1;
+        position: absolute;
+        bottom: 20px;
+        font-size: 18px;
+        color: #fff;
     }
 }

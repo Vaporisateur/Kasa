@@ -24,6 +24,7 @@ export default function Carrousel({ pictures }) {
             <button className="carrousel__btn carrousel__btn--next" onClick={handleNext} aria-label="Image suivante">
                 <Chevron direction="right" />
             </button>
+            <p className="carrousel__count">{ImgIndex}/{pictures.length - 1}</p>
         </div>
     )
 }

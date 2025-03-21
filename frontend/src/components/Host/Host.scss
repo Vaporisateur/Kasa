@@ -1,0 +1,21 @@
+.host {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 10px;
+
+    &__picture {
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+    }
+
+    &__name {
+        margin: 0;
+        font-size: 1.25rem;
+        font-weight: 500;
+        color: #FF6060;
+        letter-spacing: 1px;
+        flex: 0;
+    }
+}
