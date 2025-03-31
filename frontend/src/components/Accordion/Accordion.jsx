@@ -21,7 +21,7 @@ export default function Accordion({ title, children }) {
                 </span>
             </div>
             {isOpen && (
-                <div className="accordion__content" id="accordion__content">
+                <div className="accordion__content accordion__content--open">
                     {children}
                 </div>
             )}

@@ -5,4 +5,11 @@
     background-color: #F6F6F6;
     padding: 50px;
     border-radius: 25px;
+
+    @media (max-width: 768px) {
+        padding: 0;
+        gap: 20px;
+        background-color: transparent;
+        grid-template-columns: 1fr;
+    }
 }

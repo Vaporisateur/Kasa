@@ -8,14 +8,22 @@
         width: 64px;
         height: 64px;
         border-radius: 50%;
+        @media (max-width: 768px) {
+            width: 32px;
+            height: 32px;
+        }
     }
 
     &__name {
         margin: 0;
-        font-size: 1.25rem;
+        font-size: 18px;
         font-weight: 500;
         color: #FF6060;
         letter-spacing: 1px;
         flex: 0;
+
+        @media (max-width: 768px) {
+            font-size: 12px;
+        }
     }
 }

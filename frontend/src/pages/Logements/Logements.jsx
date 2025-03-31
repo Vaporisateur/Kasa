@@ -6,11 +6,26 @@ import Tags from "../../components/Tags/Tags";
 import Host from "../../components/Host/Host";
 import Accordion from "../../components/Accordion/Accordion";
 import Rating from "../../components/Rating/Rating";
+import { useNavigate} from "react-router";
+import { useEffect } from "react";
 
 export default function Logements() {
   let params = useParams();
   console.log(logementsData);
   let logement = logementsData.find((logement) => logement.id === params.id);
+  let navigate = useNavigate();
+
+  useEffect(() => {
+    if (logement === undefined) {
+      navigate("/404");
+      return;
+    }
+    }, [logement, navigate]
+  )
+
+  if (logement === undefined) {
+    return null;
+  }
 
   return (
     <div className="logements container">

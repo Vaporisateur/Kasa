@@ -1,0 +1,10 @@
+.banner-home > div {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    var(--background-image);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}

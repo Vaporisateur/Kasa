@@ -6,6 +6,11 @@ $nav-font: 'Montserrat', sans-serif;
     display: flex;
     align-items: center;
     gap: 50px;
+    padding: 0;
+    
+    @media (max-width: 768px) {
+        gap: 26px;
+    }
 
     &__item {
         list-style: none;
@@ -20,9 +25,15 @@ $nav-font: 'Montserrat', sans-serif;
         &:hover {
             color: inherit;
         }
+
+        @media (max-width: 768px) {
+            font-size: 12px;
+            text-transform: uppercase;
+        }
     }
 
     &__link.active {
         text-decoration: underline;
+        text-underline-offset: 2px;
     }
 }

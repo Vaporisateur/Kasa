@@ -1,37 +1,63 @@
 .logements {   
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    display: grid;
+    gap: 22px;
+    align-items: start;
+    grid-auto-rows: min-content;
     font-family: 'Montserrat', sans-serif;
 
     &__container {
         display: flex;
         justify-content: space-between;
+        flex-direction: row;
+
+        @media (max-width: 768px) {
+            flex-direction: column;
+            gap: 10px;
+        }
     }
 
     &__title {
         margin: 0 0 10px;
-        font-size: 2.25rem;
+        font-size: 36px;
         font-weight: 500;
         color: #FF6060;
-        letter-spacing: 1px;
+
+        @media (max-width: 768px) {
+            font-size: 18px;
+        }
     }
     
     &__location {
         margin: 0 0 25px;
-        font-size: 1.125rem;
-        letter-spacing: 0.5px;
+        font-size: 18px;
+        font-weight: 500;
+
+        @media (max-width: 768px) {
+            font-size: 14px;
+        }
     }
 
     &__details {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 70px;
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        gap: 20px;
+
+        @media (max-width: 768px) {
+            flex-direction: column;
+            gap: 16px;
+        }
     }
 
     &__infos {
         display: flex;
         flex-direction: column;
         gap: 30px;
+
+        @media (max-width: 768px) {
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            gap: 10px;
+        }
     }
 }

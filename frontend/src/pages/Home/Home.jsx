@@ -6,8 +6,10 @@ import './Home.scss';
 
 export default function Home() {
   return (
-    <div className="container">
-      <Banner image={BannerHome} title="Chez vous, partout et ailleurs" />
+    <div className="content container">
+      <div className="banner-home">
+        <Banner image={BannerHome} title="Chez vous, partout et ailleurs" />
+      </div>
       <CardContainer logements={logementsData} />
     </div>
   );
