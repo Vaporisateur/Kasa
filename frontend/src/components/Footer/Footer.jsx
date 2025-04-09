@@ -10,7 +10,7 @@ export default function Footer() {
                 <path d="M53.0946 28.9118V36.2203L56.1927 34.3932V27.0847L53.0946 28.9118Z" fill="white"/>
                 <path d="M61.641 19.991L48.9282 12.575L41.8774 8.49084L34.9335 20.6358L35.0403 32.0285L47.6462 39.4445L48.9282 38.6921V27.9443L54.5902 17.9489L60.359 21.2807V32.0285L61.641 31.2761V19.991Z" fill="white"/>
             </svg>
-            <p className="footer__text">© 2025 - Kasa. All rights reserved</p>
+            <p className="footer__text">© 2025 Kasa. All rights reserved</p>
         </footer>
     )
 }

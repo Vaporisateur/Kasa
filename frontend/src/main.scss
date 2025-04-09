@@ -8,9 +8,14 @@
 #root {
   display: grid;
   grid-template-rows: auto 1fr auto;
-  gap: 2.375rem;
+  gap: 50px;
   padding-block-start: 2.375rem;
   min-height: calc(100vh - 2.375rem);
+
+  @media (max-width: 768px) {
+    padding-block-start: 1.5rem;
+    gap: 30px;
+  }
 }
 
 body {

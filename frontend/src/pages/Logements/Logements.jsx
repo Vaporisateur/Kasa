@@ -11,7 +11,6 @@ import { useEffect } from "react";
 
 export default function Logements() {
   let params = useParams();
-  console.log(logementsData);
   let logement = logementsData.find((logement) => logement.id === params.id);
   let navigate = useNavigate();
 
