@@ -6,7 +6,7 @@
     },
     "about": {
         "to": "/about",
-        "label": "À propos",
+        "label": "A propos",
         "ariaLabel": "Aller à la page À propos"
     }
 }
